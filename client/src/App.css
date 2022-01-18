@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  margin-top: 2em;
+  text-align: center;
+}
+input,
+button {
+  font-size: 1em;
+  padding: 0.5em;
+  margin: 0.5em;
+  outline: none;
+}
+.movieWrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 1em auto;
+}
+li {
+  list-style: none;
+}
+.movieWrap li {
+  font-size: 1.5em;
+}
+.movieWrap div {
+  margin: 1.2em 0;
+}
+.movieWrap img {
+  width: 250px;
+  height: 300px;
+}
